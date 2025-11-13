@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
+#include "'GameFramework/Pawn.h"
 #include "TDTowerPawn.generated.h"
 
 UCLASS()
@@ -16,6 +16,7 @@ public:
 	ATDTowerPawn();
 
 protected:
+	UP
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
